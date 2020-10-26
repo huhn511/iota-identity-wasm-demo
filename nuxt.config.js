@@ -6,14 +6,13 @@ export default {
 
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-
+  router: {
+    base: '/iota-identity-wasm-demo/'
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s - DID Explorer',
     title: 'DID Explorer',
-    router: {
-      base: '/iota-identity-wasm-demo/'
-    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
